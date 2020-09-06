@@ -1,4 +1,4 @@
-*,html,body{box-sizing: border-box;}
+*,html,body{box-sizing: border-box;scroll-behavior: smooth;}
 html,body{padding: 0;margin: 0;}
 
 body{
@@ -144,3 +144,9 @@ p{
     width: 3.5em;
     height: 3.75em;
 }
+
+@media only screen and (max-width: 600px) {
+    .feature-bg-img-2{
+        width: 100%;
+    }
+  }
