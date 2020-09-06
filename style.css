@@ -1,0 +1,131 @@
+*,html,body{box-sizing: border-box;}
+html,body{padding: 0;margin: 0;}
+
+body{
+    background: #000;
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: 8px solid #222;
+}
+.bg-cover{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/904a4f7a-3eb8-4a85-aba5-5e6505f17277/6dd452b5-2539-4295-b260-56cd87b938cd/IL-he-20200831-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+}
+.navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,1);
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+.color-wh{
+    color: white;
+    font-weight: 700;
+    font-size: 120%;
+    margin: 0 .5em;
+}
+.color-red{
+    background-color: #e50914;
+    color: white;
+}
+.color-red:hover{
+    color: white;
+}
+.info{
+    color: white;
+    text-align: center;
+    margin-top: 5em;
+}
+.info-title{
+    font-size: 3.125em;
+    font-weight: 700;
+}
+.h5-padding{
+    padding: 1em 0;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.form-inline{
+    justify-content: center;
+    margin: 1em 0;
+}
+.info p{
+    font-size: 1em;
+}
+.input-padding{
+    padding: 1em 2em;
+    width: 40%;
+}
+.btn.custom-btn{
+    border-radius: 0;
+    padding: 1em 2em;
+    background-color: #e50914;
+}
+.btn.custom-btn:hover{
+    background-color: #d30913;
+}
+.br-style{
+    background-color: gray;
+}
+
+
+.features{
+    color: white;
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 3em 0;
+
+}
+.feature-bg-img{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.5em;
+    position: relative;
+}
+.feature-bg-video video{
+    vertical-align: baseline;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    top: 10px;
+}
+
+.feature-bg-img-2{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 0 0 4.5em;
+    position: relative;
+    width: 404px;
+    height: 303px;
+
+}
+.padding-right{
+    padding: 0 4.5em 0 0 ;
+
+}
+.animation-card{
+    position: absolute;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.animation-card img{
+    width: 67px;
+    padding: .3em;
+    margin-right: 1em;
+}
