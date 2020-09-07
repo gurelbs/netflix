@@ -4,11 +4,21 @@ html,body{padding: 0;margin: 0;}
 body{
     background: #000;
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
 }
 .container-fluid{
     padding-right: 0;
     padding-left: 0;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
 }
 .navbar{
     background: rgba(0, 0, 0, 0.8);
@@ -71,9 +81,9 @@ body{
 }
 .input-padding{
     padding: 1em 2em;
-    width: 40%;
 }
 .btn.custom-btn{
+    border: none;
     border-radius: 0;
     padding: 1em 2em;
     background-color: #e50914;
@@ -164,13 +174,187 @@ p{
     z-index: -1;
     top: -30px;
 }
-@media only screen and (max-width: 800px) {
-.features {
-    text-align: center;
+
+.bootstrapColorsNetflix
+{
+    text-align:right;
+    direction: rtl;
+    color: #757575;
+    font-size: 13px;
+
+    background-color: black;
+    /*z-index: 10000;*/
+
+    padding-left:13px;
+    padding-right:13px;
+    padding-top: 13px;
+    padding-bottom: 13px;   
 }
 
-  }
+.bootstrapColorsNetflix a:hover
+{
+    text-decoration: underline;
+}
 
+.bootstrapColorsNetflix a:visited,a:link,a:active
+{
+    color: #757575;
+    text-decoration: none;
+}
+
+div.bootstrapColorsNetflix a
+{
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+#heb-questions{
+
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+    border-bottom: 8px solid #222;
+
+}
+
+.question-container{
+  text-align: center;
+  align-content: center;
+  color: #f3f3f3;
+  background-color: black;
+}
+
+.question-container h1{
+font-size:bold;
+}
+
+.faq-list{
+    margin: 1.25em auto;
+    max-width: 815px;
+}
+
+
+.faq-list-item{
+  display: list-item;
+  list-style-type: none;
+  margin: 0 0 8px 0;
+  direction: rtl;
+  background: #303030;
+}
+
+.my-btn{
+  padding: .8em 1.2em .8em 2.2em;
+  margin-bottom: 1px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  text-align: right;
+  background: #303030;
+  color: white;
+  border-radius:0;
+}
+ .my-btn:focus{
+   outline: none;
+ }
+
+ .svg-icon-thin-x {
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  height: 1em;
+  width: 1em;
+  fill: #fff;
+}
+
+#thin-x{
+  transform: rotate(90deg);
+}
+
+.my-btn.collapsed #thin-x{
+ transform: rotate(45deg);
+}
+
+hr{
+  border-top:1px solid black;
+}
+.collapse span {
+  display: inline-block;
+  text-align: right;
+  padding: 1.2em;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.btn-red{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #e50914;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: inline-block;
+  text-align: right;
+  color: #fff;
+  border-radius:0;
+  min-height: 60px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.45);
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: .1px;
+}
+
+.chevron-right-arrow {
+  height: .75em;
+  width: .35em;
+  flex: 0 1 auto;
+  margin: 0 .5em 0 0;
+  position: relative;
+}
+
+ .chevron-right-arrow svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1px 0;
+  height: 100%;
+  transform: scaleX(-1);
+}
+
+.heb-email-form{
+  direction:rtl;
+}
+.email-form-lockup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+/* media query by naama */
+@media only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px) {
+  .email-form-lockup {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+    .features {
+        text-align: center;
+    }
+}
   @font-face {
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     src: url(./netflix_sans_by_pependejo_dc8aja8/Netflix\ Sans\ Light.otf);
